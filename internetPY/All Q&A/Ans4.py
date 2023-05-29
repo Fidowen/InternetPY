@@ -25,6 +25,9 @@ plt.ylabel('y-Value',fontsize = 16)
 plt.savefig('chart.png')
 plt.close()
 
+
+
+
 #402
 # --開始--批改評分使用，請勿變動
 import matplotlib as mpl
@@ -58,6 +61,7 @@ plt.legend()
 # 使用 savefig() 函數
 plt.savefig('chart.png')
 plt.close()
+
 
 #403
 # --開始--批改評分使用，請勿變動
@@ -94,6 +98,7 @@ plt.axis('equal')
 
 plt.savefig('chart.png')
 plt.close()
+
 
 #404
 # --開始--批改評分使用，請勿變動
@@ -150,6 +155,7 @@ plt.title('Score ranges count', fontsize=20)
 # 輸出圖片檔案
 plt.savefig('chart.png')
 plt.close()
+
 
 #405
 # --開始--批改評分使用，請勿變動

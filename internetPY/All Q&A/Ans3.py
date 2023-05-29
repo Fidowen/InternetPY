@@ -25,6 +25,11 @@ df.loc["小黃", "英文"] = 80
 print('小黃的成績')
 print(df.loc['小黃'])
 
+
+
+
+
+
 #302
 set_seed = 123
 
@@ -41,6 +46,9 @@ print('最小：', np.min(x))
 print('總和：', np.sum(x))
 print('四個角落元素：')
 print(x[np.ix_([0, -1], [0, -1])])
+
+
+
 
 #303
 # 載入 pandas 模組縮寫為 pd

@@ -11,12 +11,55 @@ if htmlfile.status_code == 200:
     n = len(re.findall(s, htmlfile.text))
     print (s,'出現', n,'次' )
 
+
+
+
+
+
+
+
+
+
+
+
 #202
 import pandas as pd
 
 df = pd.read_html('read.html')
 df = df[1]
 df.to_csv('write.csv',index=False,encoding='utf-8',float_format='%.3f')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #203
 import bs4
@@ -45,6 +88,13 @@ for i in range(6, len(balls)):
 redball = dataTag[2].find_all('div', {'class': 'ball_red'})
 print("\n特別號   :", redball[0].text)
 
+
+
+
+
+
+
+
 #204
 import requests
 import json
@@ -63,6 +113,13 @@ for record in data:
         print('網站：%s' % record['website'])
         print('資料更新時間：%s' % record['update_date'])
         print()
+
+
+
+
+
+
+
 
 #205
 import requests
